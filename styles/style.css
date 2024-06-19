@@ -2,7 +2,7 @@
 header {
   background-color: steelblue;
   padding: 10px;
-  display: block;
+  gap: 10px;
 }
 
 h1 {
