@@ -10,22 +10,43 @@ nav a {
   display: block;
   padding: 20px;
 }
+
 h1 {
   color: steelblue;
 }
 
-img {
+main img {
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
-  
 }
 
 p {
-  padding: 10px;
+  padding: 0px;
 }
 
+main {
+  max-width: 840px;
+}
 
+aside {
+  max-width: 400;
+  margin: 30px;
+  border:  3px solid #150080;
+  padding: 2%;
+  background-color: #150080;
+  color: white;
+}
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+footer {
+  margin-top: 30px;
+  border: 3px solid #150080;
+  text-align: center;
+}
 
