@@ -6,18 +6,16 @@ body {
 }
 
 :root {
-    --primary-color: #E0CA3C
-    --secondary-color: #EEF0F2
-    --accent1-color: #009AA2
-    --accent2-color: #3A6EA5
-
-    --heading-font: 'BioRhyme', slab serif;
-    --paragraph-font: 'BioRhyme', slab serif;
-
-    --nav-backround-color: #E0CA3C
-    --nav-link-color: #3A6EA5
-    --nav-hover-link-color: #3A6EA5
-    --nav-hover-backround-color: #009AA2
+    --primary-color: #E0CA3C;
+    --secondary-color: #EEF0F2;
+    --accent1-color: #009AA2;
+    --accent2-color: #3A6EA5;
+    --heading-font: 'BioRhyme', serif;
+    --paragraph-font: 'BioRhyme', serif;
+    --nav-background-color: #E0CA3C;
+    --nav-link-color: #3A6EA5;
+    --nav-hover-link-color: #3A6EA5;
+    --nav-hover-background-color: #009AA2;
 }
 
 h1, h2, h3, h4, h5, h6 {
