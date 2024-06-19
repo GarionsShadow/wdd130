@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #E0CA3C
+    --secondary-color: #EEF0F2
+    --accent1-color: #009AA2
+    --accent2-color: #3A6EA5
+
+    --heading-font: 'BioRhyme', slab serif;
+    --paragraph-font: 'BioRhyme', slab serif;
+
+    --nav-backround-color: #E0CA3C
+    --nav-link-color: #3A6EA5
+    --nav-link-hover-color: #3A6EA5
+    --nav-hover-backround-color: #009AA2
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 2%;
+    background-color: #EEF0F2;
+}
+
+p {
+    padding: 2%;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
