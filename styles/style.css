@@ -10,7 +10,6 @@ body {
 }
 nav {
   max-width: 1500px;
-  max-height: 450px;
   background-color: steelblue;
   padding: 2px;
   gap: 2px;
@@ -83,7 +82,7 @@ ul {
   margin: 2rem;
   border: 1px solid black;
   padding: 2rem;
-  background-color: steelblue;
+  background-color: #150080;
   color: black;
 }
 
