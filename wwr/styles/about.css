@@ -22,6 +22,7 @@ h1{
     color: var(--accent1-color);
     font-family: var(--heading-font);
     position: absolute;
+    top: 10px;
     left: 30%;
 }
 
@@ -49,19 +50,20 @@ div article {
 
 div p {
     position: absolute;
-    top: 75%;
+    top: 100px;
     width: 495px;
-    padding: 2%;
+    padding: 10px;
+    padding-right: 180px;
     display: block;
 
 }
 
 div article img {
-    display: block;
-    top: 45%;
+    position: absolute;
+    top: 140px;
+    left: 550px;
     float: Right;
     max-width: 100px;
-
 }
 
 section img {
@@ -72,6 +74,7 @@ section img {
 a img {
     max-width: 50px;
 }
+
 /* Class definitions  */
 .hero {
     margin-top: 50px;
