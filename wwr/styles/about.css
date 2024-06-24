@@ -43,9 +43,8 @@ div article {
 }
 
 div article img {
-    position: absolute;
-    top: 20%;
-    left: 105%;
+    top: 15%;
+    float: right;
     max-width: 100px;
 
 }
@@ -65,14 +64,13 @@ a img {
 /* Class definitions  */
 .hero {
     display: block;
+    max-width: 1300px;
     
 }
 
 .heroimg {
     position: absolute;
     top: 33%;
-    display: block;
-    width: ;
-   
+    display: block; 
     
 }
