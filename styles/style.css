@@ -9,6 +9,7 @@ body {
   background-color: rgb(228, 228, 228);
 }
 nav {
+  max-width: 1500px;
   max-height: 450px;
   background-color: steelblue;
   padding: 2px;
@@ -59,6 +60,10 @@ aside {
 aside img {
   width: 200px;
   height: auto;
+}
+
+aside h2 {
+  position: absolute;
 }
 
 footer {
