@@ -2,6 +2,7 @@
 * {
     max-width: 1300px;
     font-family: "BioRhyme";
+    margin: 20px;
 } 
 :root {
     --primary-color: #E0CA3C;
@@ -21,6 +22,7 @@ h1{
     color: var(--accent1-color);
     font-family: var(--heading-font);
     position: absolute;
+    left: 30%;
 }
 
 h2 {
@@ -40,24 +42,31 @@ div article {
     top: 2%;
     left: 2%;
     display: block;
+    font-size: larger;
 }
 
 
 
 div p {
     position: absolute;
-    width: 325px;
+    top: 75%;
+    width: 495px;
     padding: 2%;
+    display: block;
 
 }
+
 div article img {
-    top: 15%;
-    float: right;
+    display: block;
+    top: 45%;
+    float: Right;
     max-width: 100px;
 
 }
 
 section img {
+    margin: 10px;
+    display: block;
     max-width: 400px;
 }
 a img {
@@ -65,12 +74,15 @@ a img {
 }
 /* Class definitions  */
 .hero {
-    max-width: 600px;
+    margin-top: 50px;
+    height: 300px;
     position: relative;
+    padding-bottom: 250px;
 }
 
 .heroimg {
     position: absolute;
     display: block; 
     width: 100%;
+    height: 500px;
 }
