@@ -10,6 +10,9 @@ body {
   background-color: rgb(228, 228, 228);
 }
 nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   max-width: 1500px;
   background-color: steelblue;
   padding: 2px;
@@ -17,70 +20,91 @@ nav {
 }
 
 nav a {
+
   color: white;
   display: block;
   padding: 20px;
 }
 
-h1 {
+ h1 {
   margin: 1%;
+  padding: 5px;
   color: steelblue;
+  border-bottom: solid 1px steelblue;
 }
 
 main img {
-  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
   width: 150px;
   height: auto;
-  border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
-  float: right;
+  
 }
 
 p {
   padding: 1%;
 }
 
+main ul {
+  grid-row: unset;
+}
+
+
 main {
   max-width: 840px;
+  grid-column: 2/3;
+  margin: 1rem;
+}
+.grid{
+  display: grid;
+  align-items: center;
 }
 
 aside {
   position: relative;
-  top: 15px;
-  left: 190px;
-  max-width: 1500px;
-  margin: 30px;
+  
+  width: 20rem;
+  margin: 5px;
   border:  3px solid #150080;
-  padding: 2%;
+  padding: 0%;
   background-color: #3295a7;
   color: white;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
+
 aside img {
-  width: 200px;
+  width: 250px;
   height: auto;
 }
 
 aside h2 {
-  position: absolute;
+  position: relative;
+  
+}
+
+header, .grid, footer {
+  margin: 0;
+  max-width: 840px;
 }
 
 footer {
-  margin-top: 30px;
-  border: 3px solid #150080;
-  text-align: center;
+  border-top: solid 1px steelblue;
 }
 
-ul { 
-  max-width: 500px;
-  color: black
-}
 
 link {
   color: steelblue;
 }
 /* Class Selectors */
+
+  
+  
+
 .box {
   margin: 2rem;
   border: 1px solid black;
