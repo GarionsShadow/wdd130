@@ -87,7 +87,7 @@ aside h2 {
   
 }
 
-header, .grid, footer {
+header, footer,.grid {
   margin: 0;
   max-width: 840px;
 }
