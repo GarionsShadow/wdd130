@@ -27,7 +27,7 @@ h1{
 }
 
 h2 {
-    justify-content: centerd;
+    justify-content: center;
     color: var(--accent1-color);
     font-family: var(--heading-font);
 }
