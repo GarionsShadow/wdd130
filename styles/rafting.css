@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+* {
+    max-width: 1300px;
+    font-family: "BioRhyme";
+    margin: 20px;
+} 
+:root {
+    --primary-color: #E0CA3C;
+    --secondary-color: #EEF0F2;
+    --accent1-color: #009AA2;
+    --accent2-color: #3A6EA5;
+    --heading-font: 'BioRhyme', serif;
+    --paragraph-font: 'BioRhyme', serif;
+    --nav-background-color: #E0CA3C;
+    --nav-link-color: #3A6EA5;
+    --nav-hover-link-color: #3A6EA5;
+    --nav-hover-background-color: #009AA2;
+}
+
+
+h1{
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    position: absolute;
+    top: 10px;
+    left: 30%;
+}
+
+h2 {
+    justify-content: center;
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+}
+
+p {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+}
+
+div article {
+    /* background-image: url("../images/hero.png"); */
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    display: block;
+    font-size: larger;
+}
+
+
+
+div p {
+    position: absolute;
+    top: 100px;
+    width: 495px;
+    padding: 10px;
+    padding-right: 180px;
+    display: block;
+
+}
+
+div article img {
+    position: absolute;
+    top: 140px;
+    left: 550px;
+    float: Right;
+    max-width: 100px;
+}
+
+section img {
+    margin: 10px;
+    display: block;
+    max-width: 400px;
+}
+a img {
+    max-width: 50px;
+}
+
+header {
+    display: flex;
+    background-color: var(--secondary-color);
+}
+
+section {
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Class definitions  */
+.adventure {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 840px;
+    flex-direction: row;
+
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.grid {
+    display: grid;
+
+
+}
+
+.hero {
+    margin-top: 50px;
+    height: 300px;
+    position: relative;
+    padding-bottom: 250px;
+}
+
+.heroimg {
+    position: absolute;
+    display: block; 
+    width: 100%;
+    height: 500px;
+}
+figure {
+    margin: 0px;
+}
