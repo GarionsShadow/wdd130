@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
-
+* {
+    max-width: 1300px;
+    font-family: "BioRhyme";
+    margin: 20px;
+} 
 :root {
     --primary-color: #E0CA3C;
     --secondary-color: #EEF0F2;
@@ -18,39 +17,110 @@ body {
     --nav-hover-background-color: #009AA2;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--paragraph-font);
-    color: var(--primary-color);
+
+h1{
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    position: absolute;
+    top: 10px;
+    left: 30%;
 }
 
-header {
-    display: grid;
-    padding: 2%;
-    background-color: #EEF0F2;
+h2 {
+    justify-content: center;
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
 }
 
 p {
-    padding: 2%;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
 }
 
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-  }
-  
-  nav a {
+div article {
+    /* background-image: url("../images/hero.png"); */
+    position: absolute;
+    top: 2%;
+    left: 2%;
     display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-  }
-  
-  nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-  }
-  
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-  }
+    font-size: larger;
+}
+
+
+
+div p {
+    position: absolute;
+    top: 100px;
+    width: 495px;
+    padding: 10px;
+    padding-right: 180px;
+    display: block;
+
+}
+
+div article img {
+    position: absolute;
+    top: 140px;
+    left: 550px;
+    float: Right;
+    max-width: 100px;
+}
+
+section img {
+    margin: 10px;
+    display: block;
+    max-width: 400px;
+}
+a img {
+    max-width: 50px;
+}
+
+header {
+    display: flex;
+    background-color: var(--secondary-color);
+}
+
+section {
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Class definitions  */
+.adventure {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 840px;
+    flex-direction: row;
+
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.grid {
+    display: grid;
+
+
+}
+
+.hero {
+    margin-top: 50px;
+    height: 300px;
+    position: relative;
+    padding-bottom: 250px;
+}
+
+.heroimg {
+    position: absolute;
+    display: block; 
+    width: 100%;
+    height: 500px;
+}
+figure {
+    margin: 0px;
+}
