@@ -6,14 +6,18 @@
 }
  body {
     font-family: "BioRhyme";
+    margin-left: 1rem;
  }
 
  header, h1 {
     color: steelblue;
+    width: auto;
+    font-size: large;
+    text-align: center;
  }
 
  form {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     padding: auto;
     border: 1px solid steelblue;
@@ -23,14 +27,19 @@
  }
 
   fieldset {
+    padding: auto;
+    border: 1px solid steelblue;
+    border-radius: 1%;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 1px;
+    width: 80%;
+    align-self: center;
   }
 
   fieldset legend {
-    padding: 2%;
+    padding: .1%;
     color: steelblue;
-    font-size: 75%;
+    font-size: 1.5;
   }
 
   label, input, button, select, textarea {
@@ -38,11 +47,65 @@
   }
 
   label {
-    text-align: right;
-    padding-right: 5%;
+    text-align: center;
+    padding-right: .1rem;
   }
 
-  checkbox {
+  input[type="checkbox"] {
     width: 20%;
-    height: inherit;
+    height: 1.2rem;
+    width: 1.2rem;
+    vertical-align: bottom;
   }
+
+  select, input, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+  }
+
+  button {
+    border: none;
+    border-radius: .5rem;
+    margin: 1.1rem;
+    width: 9rem;
+    height: 3rem;
+    background-color: steelblue;
+  }
+
+  button:hover {
+    background-color: rgba(0, 58, 250, 0.445);
+  }
+
+  footer {
+    margin-top: 2rem;
+    width: 38rem;
+    height: 4rem;
+  }
+
+  .form-item {
+    display: grid;
+    align-items: center;
+    margin: 1rem auto 0;
+    width: 650px;
+  }
+
+  .column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .2rem auto;
+  }
+
+  input[type="text"], input[type="email"] {
+    margin-left: .5rem auto;
+    width: 500px;
+  }
+
+  input[type="email"] {
+    margin-bottom: .5rem;
+  }
+
+  div {
+    align-self: right;
+  }
+ .column2 {
+    grid-template-columns: 1fr 2fr;
+ }
