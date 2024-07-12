@@ -41,18 +41,19 @@
 
 
         <section>
-        <div >
-        <label for="emp1">Tina Graylash</label>
-        <img src="images/happy-customer.png" alt="happy-customer" id="emp1">
-        </div>
-        <div >
-        <label for="emp2">Oscar Blade</label>
-        <img src="images/emp2.png" alt="Employee Oscar Blade">
-        </div>
-        <div>
-            <label for="emp3">Linda Green</label>
-            <img src="images/emp3.png" alt="Employee Linda Green">
-        </div>
+        <table>
+        <caption>Employees</caption>
+        <tr>
+            <th><img class="empim" id="emp1" src="images/happy-customer.png" alt="happy-customer"></th>
+            <th><img class="empim" id="emp2" src="images/emp2.png" alt="Employee Oscar Blade"></th>
+            <th><img class="empim" id="emp3" src="images/emp3.png" alt="Employee Linda Green"></th>
+        </tr>
+        <tr>
+            <th>Kaz Talon</th>
+            <th>Oscar Blade</th>
+            <th>Linda Green</th>
+        </tr>
+    </table>
         </section>
         <h2>Feedback Form</h2>
         <form class="quiz">
@@ -74,7 +75,7 @@
         </div>
         <div>
             <label for="msg">The Message:</label>
-            <input type="textarea" name="Msg" id="msg">
+            <textarea name="Msg" id="msg"></textarea>
         </div>
         <div>
         <label for="sub">Please subscribe me to the monthly newsletter</label>
