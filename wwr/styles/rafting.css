@@ -169,3 +169,34 @@ button {
 button:hover {
     background-color: #009AA2;
 }
+
+p a {
+    margin: 0;
+    padding: 0;
+}
+
+.trip {
+    position: relative;
+    margin: .5rem;
+    top: 0;
+    
+}
+div .trip {
+    width: 14rem;
+    padding-right: 1rem;
+}
+
+.title {
+    border-bottom: 2px solid #009AA2;
+    padding-bottom: 0rem;
+}
+
+th {
+    padding: .5rem;
+}
+
+.big {
+    font-size: larger;
+    padding: .2rem;
+    padding-left: .7rem;
+}
