@@ -263,3 +263,9 @@ article.grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr ;
 }
+
+body {
+    margin: auto;
+    margin-left: 40rem;
+    width: 70rem;
+}
