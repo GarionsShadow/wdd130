@@ -68,7 +68,8 @@ div article img {
 }
 
 div img {
-    width: 8rem;
+    width: 25rem;
+    
 }
 
 section img {
@@ -84,7 +85,7 @@ header img {
 }
 
 a img {
-    max-width: 50px;
+    max-width: 10rem;
 }
 
 header {
@@ -140,4 +141,9 @@ figure {
     padding: auto;
     align-self: center;
     align-items: center;
+}
+
+body {
+    margin-left:30%;
+    width: 70rem;
 }
