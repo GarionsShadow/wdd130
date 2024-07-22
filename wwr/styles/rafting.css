@@ -42,6 +42,7 @@ p {
     background-color: var(--primary-color);
     color: var(--accent1-color);
     font-family: var(--paragraph-font);
+    padding: .2rem;
 }
 
 div article {
@@ -136,6 +137,8 @@ section {
 
 .grid {
     display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
 
 }
@@ -149,8 +152,10 @@ section {
 
 .heroimg {
     position: absolute;
-    display: block; 
-    width: 100%;
+    display: grid; 
+
+    grid-row: 3 / -1;
+    width: 85%;
     height: 400px;
 }
 figure {
@@ -199,5 +204,62 @@ th {
     font-size: larger;
     padding: .2rem;
     padding-left: .7rem;
+    max-width: 60rem;
 }
 
+.gridheader {
+    grid-row: 3/1;
+    padding-left: 6rem;
+    
+}
+
+.size1 {
+    max-width: 52rem;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+    padding-top: 0;
+}
+.news1 {
+    display: grid;
+    max-width: 10rem;
+    grid-row: 1 / 1;
+}
+
+.news2 {
+    display: grid;
+    grid-row: 1 / 2;
+    max-width: 10rem;
+}
+
+.left {
+    margin-left: 17rem;
+    position: relative;
+}
+
+.pp{
+    position: relative;
+    top: 0rem;
+    width: 20rem;
+    padding:  1rem;
+    padding-right: 0rem;
+    display: grid;
+    
+    font-size: larger;
+}
+
+.size2 {
+    max-width: 20rem;
+    max-height: 10rem;
+    margin-left: 3rem;
+    padding-left: 0;
+}
+article.grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
