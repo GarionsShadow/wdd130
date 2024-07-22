@@ -162,8 +162,8 @@ figure {
     margin: 0px;
 }
 .map {
-    align-self: center;
-    align-items: center;
+    margin-left: 9rem;
+    width: 70rem;;
 }
 
 button {
@@ -266,6 +266,6 @@ article.grid {
 
 body {
     margin: auto;
-    margin-left: 40rem;
+    margin-left:30%;
     width: 70rem;
 }
